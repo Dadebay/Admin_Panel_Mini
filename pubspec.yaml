@@ -1,0 +1,48 @@
+name: admin_panel
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: any
+  data_table_2: any
+  cloud_firestore: any
+  fl_chart: any
+  flutter_svg: any
+  get_storage: any
+  intl: ^0.18.0
+  excel: ^2.0.1
+  firebase_core: any
+  firebase_storage: ^11.1.0
+  firebase_core_platform_interface:
+  cached_network_image: ^3.2.3
+  file_picker: ^5.2.5
+  get: 4.6.5
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/images/
+    - assets/icons/
+  fonts:
+    - family: GilroyBold
+      fonts:
+        - asset: assets/fonts/Gilroy-Bold.ttf
+    - family: GilroySemiBold
+      fonts:
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+    - family: GilroyMedium
+      fonts:
+        - asset: assets/fonts/Gilroy-Medium.ttf
+    - family: GilroyRegular
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+  uses-material-design: true
+  generate: true
